@@ -11,9 +11,8 @@
 <br>  생각해보니 **캔 꼬리 = 캔따개**라서 이렇게 이름을 지었습니다!
 
 ## Godot 플러그인 사용하기
-1. 해당 GitHub 저장소를 ZIP 파일로 내려받은 후, Godot 프로젝트 폴더에 ``/addon`` 폴더를 드래그 앤 드롭합니다.
-2. Godot 프로젝트 설정에서 tincanOpener 애드온을 활성화합니다.
-3. 씬에 직접 ``ProxyWebSocketClient``와 ``ChzzkEventHandler``를 추가하거나, 메인 스크립트에 아래와 같이 추가합니다:
+1. 해당 GitHub 저장소를 ZIP 파일로 내려받은 후, Godot 프로젝트 폴더에 ``tincanOpener`` 폴더를 드래그 앤 드롭합니다.
+2. 씬에 직접 ``ProxyWebSocketClient``와 ``ChzzkEventHandler``를 추가하거나, 메인 스크립트에 아래와 같이 추가합니다:
 ```gdscript
 var proxyClient: ProxyWebSocketClient		#프록시 클라이언트 (웹소켓 클라이언트)
 var chzzkHandler: ChzzkEventHandler			#치지직 이벤트 핸들러
